@@ -1420,7 +1420,7 @@
   launchYear: 2014
   cores: 2
   threads: 4
-  frequency: 80000
+  frequency: 80
   cacheL1: null
   cacheL2: null
   cacheL3: null
@@ -3310,7 +3310,7 @@
   launchYear: 2019
   cores: 4
   threads: 8
-  frequency: 80000
+  frequency: 80
   cacheL1: null
   cacheL2: null
   cacheL3: null
@@ -5354,7 +5354,7 @@
   launchYear: 2015
   cores: 2
   threads: 4
-  frequency: 90000
+  frequency: 90
   cacheL1: null
   cacheL2: null
   cacheL3: null
@@ -5690,7 +5690,7 @@
   launchYear: 2014
   cores: 2
   threads: 4
-  frequency: 80000
+  frequency: 80
   cacheL1: null
   cacheL2: null
   cacheL3: null
@@ -5900,7 +5900,7 @@
   launchYear: 2014
   cores: 2
   threads: 4
-  frequency: 90000
+  frequency: 90
   cacheL1: null
   cacheL2: null
   cacheL3: null
@@ -9708,7 +9708,7 @@
   launchYear: 2019
   cores: 4
   threads: 8
-  frequency: 70000
+  frequency: 70
   cacheL1: null
   cacheL2: null
   cacheL3: null
@@ -11192,7 +11192,7 @@
   launchYear: 2014
   cores: 2
   threads: 4
-  frequency: 80000
+  frequency: 80
   cacheL1: null
   cacheL2: null
   cacheL3: null
