@@ -12671,7 +12671,7 @@
         "launchYear": 2021,
         "lithography": null,
         "name": "Ryzen 9 5980HX",
-        "tdp": NaN,
+        "tdp": 45,
         "threads": 16
     },
     {
@@ -12731,7 +12731,7 @@
         "launchYear": 2021,
         "lithography": null,
         "name": "Ryzen 9 5900HX",
-        "tdp": NaN,
+        "tdp": 45,
         "threads": 16
     },
     {
@@ -13286,7 +13286,7 @@
         "launchYear": 2020,
         "lithography": null,
         "name": "Ryzen 9 4900H",
-        "tdp": NaN,
+        "tdp": 45,
         "threads": 16
     },
     {
