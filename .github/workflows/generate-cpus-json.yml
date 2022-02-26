@@ -1,0 +1,21 @@
+name: generate-cpus-json
+on:
+  push:
+    paths:
+      - 'cpus.yaml'
+jobs:
+  generate-cpus-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: pip install pyyaml
+      - name: Run python script
+        run: python ./.github/workflows/yaml-to-json.py cpus.yaml generated/cpus.json
+      - name: Commit and push changes
+        uses: EndBug/add-and-commit@v8
+        with:
+          committer_name: GitHub Actions
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+          message: Generate cpu json file
+          add: '*.json'
