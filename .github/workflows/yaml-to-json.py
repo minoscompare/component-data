@@ -14,7 +14,7 @@ def main(argv):
         print("Usage: python yaml-to-json.py <yaml input file> <json output file>")
         sys.exit(1)
 
-    root_dir = path.join(path.dirname(__file__), "../..")
+    root_dir = path.abspath(path.join(path.dirname(__file__), "../.."))
     yaml_file_path = path.join(root_dir, argv[1])
     json_file_path = path.join(root_dir, argv[2])
 
