@@ -14,7 +14,7 @@ def main(argv):
         sys.exit(1)
     with open(argv[1], "r") as yaml_in, open(argv[2], "w") as json_out:
         yaml_object = yaml.safe_load(yaml_in)
-        json.dump(yaml_object, json_out)
+        json.dump(yaml_object, json_out, indent=4, sort_keys=True)
 
 
 main(sys.argv)
